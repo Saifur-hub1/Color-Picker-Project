@@ -1,0 +1,113 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.outer-container{
+  height: 600px;
+  width: 500px;
+  background-color: aliceblue;
+  padding: 20px 20px;
+}
+.first-inner-container{
+  
+}
+.display-color{
+  display: flex;
+  justify-content: space-between;
+}
+
+.random-button{
+  background-color: lightcyan;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px 8px;
+  box-shadow: 1px 1px 5px;
+  cursor: pointer;
+}
+.random-button:active{
+  box-shadow: 0px 0px 0px;
+}
+.display-preview-color{
+  height: 100px;
+  background-color: lightblue;
+  box-shadow: 2px 2px 7px lightgray;
+  border-radius: 5px;
+}
+
+
+.second-inner-container{
+  margin-top: 60px;
+  /* background-color: lightpink; */
+  height: 350px;
+}
+.change-copy-color{
+  font-weight: bold;
+}
+.copy-mode{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  /* justify-content: space-between; */
+}
+
+.option-copy-mode{
+  display: flex;
+  /* justify-content: space-between; */
+  column-gap: 12px;
+
+}
+.copy-box{
+  display: inline-block;
+  margin-bottom: 40px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(189, 224, 255);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(96, 96, 96);
+}
+
+.copy-box:active{
+  box-shadow: 0px 0px 0px;
+}
+.copy-message{
+
+}
+.color-code{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.css-input{
+  border: 1px solid;
+  padding: 5px 5px;
+  padding-left: 7px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.css-input:focus{
+  outline: none;
+}
+.both-color-code{
+  display: flex;
+  flex-direction: column;
+  row-gap:10px;
+}
+
+
+
+.adjust-rgb-color{
+  margin-top: 30px;
+}
+
+.color-slider-group-container{
+  display: flex;
+  justify-content: space-between;
+}
+.color-slider-group{
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
