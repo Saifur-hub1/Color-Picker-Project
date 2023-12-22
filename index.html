@@ -26,12 +26,12 @@
           <div style="font-weight: bold; margin-top: 30px;">Select Copy Mode</div>
           <div class="option-copy-mode">
             <div class="rgb-button">
-              <input type="radio" value="RGB" id="color-mode-rgb" checked>
-              <level for="color-mode-rgb">RGB</level>
+              <input type="radio" value="RGB" name="color-mode" id="color-mode-rgb" checked>
+              <label for="color-mode-rgb">RGB</label>
             </div>
             <div class="hex-button">
-              <input type="radio" value="HEX" id="color-mode-hex">
-              <level for="color-mode-hex">HEX</level>
+              <input type="radio" value="HEX" name="color-mode" id="color-mode-hex">
+              <label for="color-mode-hex">HEX</label>
             </div>
           </div>
           <button class="copy-box">Copy To Clipboard</button>
@@ -40,11 +40,11 @@
         <div class="color-code">
           <div class="both-color-code">
             <div style="font-weight: bold;">HEX</div>
-            <input placeholder="#FFFFFF" class="css-input">
+            <input placeholder="#FFFFFF" class="css-input" id="css-input-hex">
           </div>
           <div class="both-color-code">
             <div style="font-weight: bold;">RGB</div>
-            <input placeholder="RGB(0,0,1)" class="css-input">
+            <input placeholder="RGB(255,255,255)" class="css-input" id="css-input-rgb">
           </div>
         </div>
 
@@ -54,13 +54,13 @@
             <div style="box-shadow: 2px 2px 5px red; padding: 0px 7px 10px 7px;">
               <div class="color-slider-group">
                 <div style="color: red; font-weight: bold;">Red</div>
-                <div id="color-slider-red-level">221</div>
+                <div id="color-slider-red-level">255</div>
               </div>
               <input 
                 type="range"
                 min="0"
                 max="255"
-                value="110"
+                value="255"
                 class="color-slider"
                 id="color-slider-red"
               >
@@ -69,13 +69,13 @@
             <div style="box-shadow: 2px 2px 5px green; padding: 0px 7px 10px 7px;">
               <div class="color-slider-group">
                 <div style="color: green; font-weight: bold;">Green</div>
-                <div id="color-slider-green-level">221</div>
+                <div id="color-slider-green-level">255</div>
               </div>
               <input
                 type="range"
                 min="0"
                 max="255"
-                value="110"
+                value="255"
                 class="color-slider"
                 id="color-slider-green"
               >
@@ -84,13 +84,13 @@
             <div style="box-shadow: 2px 2px 5px blue; padding: 0px 7px 10px 7px;">
               <div class="color-slider-group">
                 <div style="color: blue; font-weight: bold;">Blue</div>
-                <div id="color-slider-blue-level">221</div>
+                <div id="color-slider-blue-level">255</div>
               </div>
               <input
                 type="range"
                 min="0"
                 max="255"
-                value="125"
+                value="255"
                 class="color-slider"
                 id="color-slider-blue"
               >

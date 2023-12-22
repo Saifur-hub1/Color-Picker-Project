@@ -29,7 +29,7 @@ body{
 }
 .display-preview-color{
   height: 100px;
-  background-color: lightblue;
+  background-color: #FFFFFF;
   box-shadow: 2px 2px 7px lightgray;
   border-radius: 5px;
 }
@@ -70,7 +70,12 @@ body{
   box-shadow: 0px 0px 0px;
 }
 .copy-message{
-
+  position: fixed;
+  padding: 10px 10px;
+  background-color: aliceblue;
+  border: 1px solid;
+  transform: translate(10%, 500%);
+  color: black;
 }
 .color-code{
   margin-top: 20px;
@@ -89,6 +94,7 @@ body{
 .css-input:focus{
   outline: none;
 }
+
 .both-color-code{
   display: flex;
   flex-direction: column;
